@@ -1,5 +1,8 @@
 # Bamazon
 Node.js &amp; MySQL Homework
+
+<img src="bamazon-test.gif">
+
 ## Overview
 
 In this activity, you'll be creating an Amazon-like storefront with the MySQL skills you learned this unit. The app will take in orders from customers and deplete stock from the store's inventory. As a bonus task, you can program your app to track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
@@ -56,11 +59,11 @@ Make sure you save and require the MySQL and Inquirer npm packages in your homew
   * List a set of menu options:
 
     * View Products for Sale
-    
+
     * View Low Inventory
-    
+
     * Add to Inventory
-    
+
     * Add New Product
 
   * If a manager selects `View Products for Sale`, the app should list every available item: the item IDs, names, prices, and quantities.
@@ -94,7 +97,7 @@ Make sure you save and require the MySQL and Inquirer npm packages in your homew
 3. Create another Node app called `bamazonSupervisor.js`. Running this application will list a set of menu options:
 
    * View Product Sales by Department
-   
+
    * Create New Department
 
 4. When a supervisor selects `View Product Sales by Department`, the app should display a summarized table in their terminal/bash window. Use the table below as a guide.
